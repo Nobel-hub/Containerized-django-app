@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+    hostname: nobel-app
+    ports: 
+      - 8004:8004
+    restart: always
